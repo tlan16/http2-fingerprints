@@ -8,7 +8,7 @@ This repo may not be as maintained as you expected. Reason being:
 
 ## Example response
 
-See [example/response.json5](/example/response.json5)
+See [examples/response.json5](/examples/response.json5)
 
 ## Run with docker
 
