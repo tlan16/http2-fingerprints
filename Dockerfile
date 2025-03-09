@@ -11,6 +11,7 @@ RUN npm run build
 FROM node-base AS development-stage
 WORKDIR /app
 COPY --from=build-stage /app /app
+ENTRYPOINT []
 CMD ["npm", "run", "dev"]
 
 FROM node-base AS production-stage
