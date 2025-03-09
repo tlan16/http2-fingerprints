@@ -1,0 +1,37 @@
+{
+  "remoteSettings": {
+    "headerTableSize": 4096,
+    "enablePush": true,
+    "initialWindowSize": 1048576,
+    "maxFrameSize": 1048576,
+    "maxConcurrentStreams": 1,
+    "maxHeaderListSize": 8192,
+    "maxHeaderSize": 8192,
+    "enableConnectProtocol": false
+  },
+  "windowUpdate": {
+    "increment": 1966082
+  },
+  "localSettings": {
+    "headerTableSize": 4096,
+    "enablePush": true,
+    "initialWindowSize": 65535,
+    "maxFrameSize": 16384,
+    "maxConcurrentStreams": 4294967295,
+    "maxHeaderListSize": 4294967295,
+    "maxHeaderSize": 4294967295,
+    "enableConnectProtocol": false
+  },
+  "headers": {
+    ":path": "/",
+    ":scheme": "https",
+    ":authority": "localhost:8443",
+    ":method": "GET",
+    "user-agent": "IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1",
+    "accept-encoding": "br, deflate, gzip, x-gzip",
+    "accept": "*/*",
+    "stream": {
+      "id": 3
+    }
+  }
+}

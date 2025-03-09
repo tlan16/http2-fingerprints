@@ -1,0 +1,16 @@
+---
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "8443:8443"
+  dev:
+    build:
+      context: .
+      target: development-stage
+    volumes:
+      - ./:/app/
+      - /app/node_modules
+    ports:
+      - "8443:8443"
