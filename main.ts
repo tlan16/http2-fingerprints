@@ -58,7 +58,7 @@ server.on('stream', (stream, headers) => {
   stream.on('end', () => {
 
     // Wait briefly to allow asynchronous events (like WINDOW_UPDATE) to be logged.
-    setTimeout(() => {
+    setImmediate(() => {
       // Combine global logs and stream-specific logs into a response.
       stream.end(JSON.stringify(response, null, 2));
     });
