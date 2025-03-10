@@ -1,5 +1,5 @@
 FROM node:22-alpine AS node-base
-FROM node:22-alpine AS build-stage
+FROM node-base AS build-stage
 
 WORKDIR /app
 COPY package.json package-lock.json ./
