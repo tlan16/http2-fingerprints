@@ -39,3 +39,7 @@ Development mode:
 ```shell
 docker compose up --build dev
 ```
+
+### Nodejs version
+
+The app has zero 3rd party package dependency. So unless nodejs's `http2` module has related breaking change, there's minimum relyence on nodejs version. However, LTS versions are prefered. 
