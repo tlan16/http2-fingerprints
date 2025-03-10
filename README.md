@@ -16,7 +16,7 @@ predecessor HTTP/1.1. In this post I will first give a short description
  of the HTTP/2 protocol, then provide details on how a web server can 
 use the protocol’s various parameters to identify the client. Finally, I
  will list methods of checking and controlling a client’s HTTP/2 
-signature. -- Source: [here](https://lwthiker.com/networks/2022/06/17/http2-fingerprinting.html)
+signature. -- source: [here](https://lwthiker.com/networks/2022/06/17/http2-fingerprinting.html)
 
 More readings:
 
